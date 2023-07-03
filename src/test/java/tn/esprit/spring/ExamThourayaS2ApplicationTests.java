@@ -48,7 +48,7 @@ class ExamThourayaS2ApplicationTests {
 
 	}
 	@Test
-	public void testGetAllEmployes() {
+	public void testGetAllVoyages() {
 		java.util.List<Voyage> listVoyage = iVoyageService.recupererAll();
 		assertEquals(0, listVoyage.size());
 	}
